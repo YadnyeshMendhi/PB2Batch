@@ -22,7 +22,7 @@ namespace MyProject1.CSharpCollections
 
             Console.WriteLine("...........................................");
 
-           ll.RemoveFirst();
+            //ll.RemoveFirst(90);
            // ll.Remove(90);
             LinkedListNode<int> n1 = ll.Find(90);
             ll.AddAfter(n1, new LinkedListNode<int>(900));

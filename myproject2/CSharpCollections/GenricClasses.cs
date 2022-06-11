@@ -18,6 +18,9 @@ namespace MyProject1.CSharpCollections
             list.Add(28);
 
             Console.WriteLine(list[0]);
+/*
+            list.Sort();
+            list.Reverse();*/
 
             // Array Hashing 
 

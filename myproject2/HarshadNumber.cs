@@ -4,7 +4,7 @@ using System.Text;
 
 namespace myproject2
 {
-    class HarshadNumber
+    /*class HarshadNumber
     {
 
         static void Main(String [] args)
@@ -46,5 +46,5 @@ namespace myproject2
                 Console.WriteLine(copyOfInputNumber + " is not a Harshad number");
             }
         }
-    }
+    }*/
 }

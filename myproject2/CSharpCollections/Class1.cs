@@ -38,10 +38,10 @@ namespace MyProject1.CSharpCollections
         {
             Hashtable ht = new Hashtable();
 
-            /*  ht.Add(new Stud(1, "mohit"), "mohit001@gmail.com");
-              ht.Add(new Stud(1, "mohit"), "mohit001@gmail.com");
-              ht.Add(new Stud(1, "mohit"), "mohit001@gmail.com");
-              ht.Add(new Stud(1, "mohit"), "mohit001@gmail.com");*/
+            /*ht.Add(new Stud(1, "mohit"), "mohit001@gmail.com");
+            ht.Add(new Stud(1, "mohit"), "mohit001@gmail.com");
+            ht.Add(new Stud(1, "mohit"), "mohit001@gmail.com");
+            ht.Add(new Stud(1, "mohit"), "mohit001@gmail.com");*/
 
             ht.Add("yadnyesh", 1);
             ht.Add("mohit", 2);
