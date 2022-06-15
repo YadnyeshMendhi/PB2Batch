@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyProject1.Arrays
+namespace myproject2.Arrays
 {
-    class UniqueElements
+    class Practice_Arrays
     {
-
-        static void Main(String[] args)
+        static void Main(string[] args)
         {
-            int[] a = { 7, 8, 3, 7, 4, 3, 3, 2 };
+            //Unique elements
+            int[] a = { 3, 2, 8, 5, 7, 1, 9 , 9 , 3 };
 
             for (int i = 0; i < a.Length; i++)
             {
@@ -23,8 +23,8 @@ namespace MyProject1.Arrays
                         IsVisited = true;
                         break;
                     }
-                }
 
+                }
                 if (IsVisited == false)
                 {
                     for (int j = i + 1; j < a.Length; j++)
@@ -34,15 +34,17 @@ namespace MyProject1.Arrays
                             count++;
                         }
                     }
-
-                    if (count == 1)//Unique elements
-                        if (count > 1)//duplicate elements
-
-                        {
-                            Console.WriteLine(a[i] + " " + count);
-                        }
+                    if (count == 1)
+                       Console.WriteLine(a[i]+"-->"+count);
+                    /*if (count > 1)
+                        Console.WriteLine(a[i] + " " + count);*/
                 }
             }
+            
+
+
+
         }
+        
     }
 }

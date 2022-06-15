@@ -7,9 +7,14 @@ namespace MyProject1.OOPs
 
     public abstract class animal
     {
-        //abstract method
+        //abstract method (does not have a body)
         public abstract void animalSound();
 
+        // Regular method
+        public void sleep()
+        {
+            Console.WriteLine("Zzz");
+        }
     }
     public class pig : animal
     {
@@ -25,6 +30,7 @@ namespace MyProject1.OOPs
         {
             pig p = new pig();
             p.animalSound();
+            p.sleep();
 
         }
     }

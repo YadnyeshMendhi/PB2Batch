@@ -10,7 +10,7 @@ namespace MyProject1.Arrays
         static void Main(String[] args)
         {
 
-            int[,] a = new int[,] { { 6, 7, 8 }, { 4, 9, 5 }, { 7, 8, 9 } };
+            int[,] a = new int[4,3] { { 6, 7, 8 }, { 4, 9, 5 }, { 7, 8, 9 }, { 5,3,7} };
 
 
             for (int i = 0; i < a.GetLength(0); i++)

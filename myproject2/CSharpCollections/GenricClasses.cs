@@ -27,7 +27,7 @@ namespace MyProject1.CSharpCollections
             Dictionary<int, string> al = new Dictionary<int, string>();
 
             al.Add(23, "Virat");
-            al.Add(43, "Dhoni");
+            al.Add(43, "Virat");
 
             Console.WriteLine(al.ContainsKey(23));
             Console.WriteLine(al.ContainsValue("Viraj"));

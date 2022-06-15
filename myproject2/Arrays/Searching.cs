@@ -44,6 +44,7 @@ namespace MyProject1.Arrays
             Console.WriteLine("Enter Elements for searching");
             int num1 = Convert.ToInt32(Console.ReadLine());
 
+
             int count = 0;
 
             for(int i = 0; i<a.Length; i++)
