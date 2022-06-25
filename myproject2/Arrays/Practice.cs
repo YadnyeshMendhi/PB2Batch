@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyProject1.Arrays
+namespace MyProject2.Arrays
 {
     class Practice
     {
 
-		static void Main(String[] args)
+		static void Main(string[] args)
 		{
 			/*int i, j, p, s = 0;
 			int[] arr = { 11, 12, 13 };
@@ -61,35 +61,17 @@ namespace MyProject1.Arrays
 			int[] arr1 = { 4, 3, 2, 4, 9, 2 };
 
 
-			for (int i=0; i<arr1.Length; i++)
-            {
-				int count = 1;
-				bool isVisited = false;
-				for(int k=i-1; k>=0; k--)
-                {
-                    if (arr1[i] == arr1[k])
-                    {
-						isVisited = true;
-						break;
-                    }
-                }
-				if(isVisited == false)
-                {
-					for(int j =i+ 1; j<arr1.Length; j++)
-                    {
-                        if (arr1[i] == arr1[j])
-                        {
-							count++;
-                        }
-                    }
-					if(count == 1 || count > 1)
-                    {
-                        Console.Write(arr1[i] + " ");
-                    }
- 
-                }
-            }
+			int[,] a = new int[2,2] { { 2, 3 } , { 4, 5 } };
 
+
+			for (int i = 0; i < a.GetLength(0); i++)
+			{
+				for (int j = 0; j < a.GetLength(1); j++)
+				{
+                    Console.WriteLine(a[i,j]+" ");
+				}
+			
+			}
 
 
 

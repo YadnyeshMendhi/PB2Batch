@@ -24,11 +24,11 @@ namespace MyProject1
 
             if (original == result)
             {
-                Console.WriteLine("Armstrong number = " +num);
+                Console.WriteLine($"{num} is a Armstrong number" );
             }
             else
             {
-                Console.WriteLine("Not Armstrong number = " +num);
+                Console.WriteLine($"{num}is Not a  Armstrong number");
             }
         }
     }

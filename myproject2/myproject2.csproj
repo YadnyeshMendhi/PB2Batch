@@ -3,6 +3,6 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
 	  <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>myproject2.OOPs.PrivateAccessibiltyLevel</StartupObject>
+	  <StartupObject>myproject2.Arrays.Practice</StartupObject>
   </PropertyGroup>
 </Project>

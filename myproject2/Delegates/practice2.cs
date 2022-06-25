@@ -10,11 +10,11 @@ namespace myproject2.Delegates
         class ppp
         {
 
-           /* public void Add(int a, int b)
+            /*public void Add(int a, int b)
             {
                 Console.WriteLine("sum=" + (a + b));
-            }
-*/
+            }*/
+
 
         }
         static void Main(string[] args)
@@ -22,12 +22,13 @@ namespace myproject2.Delegates
 
             //lambda
             ppp practice = new ppp();
-
-            mydeleg m1 = delegate (int a, int b)
+            mydeleg m1 = ( a ,  b)=>
             {
-                Console.WriteLine("Addition=" + (a + b));
+                Console.WriteLine("Sum="+(a+b));
             };
+
             m1(10, 20);
+
 
         }
     }

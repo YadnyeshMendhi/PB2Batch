@@ -7,7 +7,7 @@ namespace MyProject1.Arrays
     class ReplaceNegNumWithLeftSqr
     {
 
-        static void Main(String [] args)
+        static void Main(String[] args)
         {
             int[] a = { 12, 3, -19, 29, 5, -61, 44, 7, 49 };
 
