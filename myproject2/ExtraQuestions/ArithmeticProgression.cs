@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyProject1.ExtraQuestions
+namespace myproject2.ExtraQuestions
 {
     class ArithmeticProgression
     {

@@ -4,6 +4,14 @@ using System.Text;
 
 namespace MyProject1.OOPs
 {
+
+
+
+    // static method can be overloaded.
+    //static method can't be override,
+    //because static method can only be accessed using class name and are inaccessible to 
+    //the objects of the class.
+
     class StaticMethodOverloading
     {
 
