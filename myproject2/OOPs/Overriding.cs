@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyProject1.OOPs
+namespace myproject2.OOPs
 {
 
     class Bird
@@ -17,6 +17,7 @@ namespace MyProject1.OOPs
     {
         public override void eat()
         {
+            base.eat();
             Console.WriteLine("Sparrow is eating ");
         }
 
@@ -27,12 +28,39 @@ namespace MyProject1.OOPs
     { 
         static void Main(String [] args)
         {
-           /* Sparrow spa = new Sparrow();
-            spa.eat();*/
+            Sparrow spa = new Sparrow();
+            spa.eat();
 
-            Bird b = new Sparrow();
-            b.eat();
+            /*Bird b = new Sparrow();
+            b.eat();*/
            
+        }
+    }
+
+    //Another Example
+
+    class baseClass
+    {
+        public virtual void Greetings()
+        {
+            Console.WriteLine("baseClass Saying Hello!");
+        }
+    }
+    class subClass : baseClass
+    {
+        public override void Greetings()
+        {
+            base.Greetings();
+            Console.WriteLine("subClass Saying Hello!");
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            baseClass obj1 = new subClass();
+            obj1.Greetings();
+            Console.ReadLine();
         }
     }
 }

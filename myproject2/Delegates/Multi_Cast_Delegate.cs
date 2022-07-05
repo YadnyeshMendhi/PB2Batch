@@ -12,9 +12,9 @@ namespace myproject2.Delegates
         public delegate void mydel(double width, double height);
         class Recatngle
         {
-            public void Getarea(double width, double hight)
+            public void Getarea(double width, double height)
             {
-                Console.WriteLine("Area of rectangle=" + (width * hight));
+                Console.WriteLine("Area of rectangle=" + (width * height));
             }
             public void GetPerimeter(double width , double height)
             {

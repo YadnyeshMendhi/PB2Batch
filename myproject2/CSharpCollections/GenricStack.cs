@@ -8,7 +8,7 @@ namespace MyProject1.CSharpCollections
     {
         static void Main(string[] args)
         {
-            //Non genric stack
+            //genric stack
             Stack<int> list = new Stack<int>();
 
             list.Push(23);

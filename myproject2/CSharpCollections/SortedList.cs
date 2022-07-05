@@ -13,15 +13,26 @@ namespace MyProject1.CSharpCollections
             //Data automatically internally is sorted according to 
             //Sorted oredr of keys
 
-            SortedList<string, int> ss = new SortedList<string, int>();
+            SortedList<string,int> ss = new SortedList<string,int> ();
             ss.Add("ketki", 90);
-            ss.Add("Aditya", 90);
-            ss.Add("Sonam", 90);
-            ss.Add("Amit", 90);
+            ss.Add("Aditya", 78);
+            ss.Add("Sonam", 67);
+            ss.Add("Amit", 56);
 
+            //This method determines whether the SortedList<TKey, TValue> contains a specific key.
+            Console.WriteLine(ss.ContainsKey("ketki"));//true
+
+            //This method determines whether the SortedList<TKey, TValue> contains a specific value
+            Console.WriteLine(ss.ContainsValue(89));//false
+
+            foreach (KeyValuePair<string,int> k in ss)
+            {
+                Console.WriteLine(k.Key + " " + k.Value);
             
-            foreach(KeyValuePair<string,int> k in ss)
-                Console.WriteLine(k.Key+"---->"+k.Value);
+            }
+
+
+                
         }
     }
 }

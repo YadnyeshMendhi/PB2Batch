@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Text;
 
-namespace MyProject1.CSharpCollections
+namespace myproject2.CSharpCollections
 {
     class ArrayListEx
     {
@@ -18,6 +18,9 @@ namespace MyProject1.CSharpCollections
             list.Add("Pushpendra");
             list.Add(6.8);
             list.Add(400);
+            //Date and Time
+            DateTime d = DateTime.Parse("7-2-2022");
+            list.Add(d);
 
             //Replace
             list[0] = 3000;
@@ -34,7 +37,7 @@ namespace MyProject1.CSharpCollections
 
          
 
-            foreach(var i in list)
+            foreach(object i in list)
             {
                 Console.WriteLine(i);
             }

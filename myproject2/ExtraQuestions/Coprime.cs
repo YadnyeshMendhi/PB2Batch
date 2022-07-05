@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyProject1.ExtraQuestions
+namespace myproject2.ExtraQuestions
 {
     class Coprime
     {
@@ -11,28 +11,47 @@ namespace MyProject1.ExtraQuestions
         {
 
 
-            int a = 100;
+            //int a = 20;
+            Console.WriteLine("Enter a number to check CoPrime");
+            int num = Convert.ToInt32(Console.ReadLine());
             //(5,24) , (7,24)
             //Co prime numbers are those numbers that have only one factor
             //namely 1.
 
             int j;
 
-            for(int i = 0; i < a; i++)
+            /* for(int i = 0; i < num; i++)
+             {
+                 int count = 0;
+                 for(j=1;j<i; j++)
+                 {
+                     if(num % j ==0 && i % j == 0)
+                     {
+                         count++;
+                     }
+                 }
+                 if (count == 1)
+                 {
+                     Console.WriteLine($"coprime pair is {i} {num}"); ;
+                 }
+ */
+
+            for (int i = 0; i < num; i++)
             {
-                int c = 0;
-                for(j=1;j<i; j++)
+                int count = 0;
+                for (j = 1; j < i; j++)
                 {
-                    if(a % j ==0 && i % j == 0)
-                    {
-                        c++;
+                    if (num % j == 0 && i % j == 0) {
+                        count++;
                     }
+                   
                 }
-                if (c == 1)
+                if (count == 1)
                 {
-                    Console.WriteLine($"coprime pair is {i} {a}"); ;
+                    Console.WriteLine($"Coprime pair is {i} {num}");
                 }
 
+            }
 /*
                 String s = "India is my country";
 
@@ -40,4 +59,4 @@ namespace MyProject1.ExtraQuestions
             }
         }
     }
-}
+

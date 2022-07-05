@@ -12,7 +12,7 @@ namespace myproject2.CSharpCollections
         public int Class { get; set; }
         public float Marks { get; set; }
 
-        public int CompareTo( Student other)
+        public int CompareTo(Student other)
         {
             if (this.Sid > other.Sid)
                 return 1;
@@ -20,19 +20,19 @@ namespace myproject2.CSharpCollections
                 return -1;
             else
                 return 0;
-            
+
         }
     }
     public class compareStudent : IComparer<Student>
     {
-        public int Compare(Student x ,  Student y)
+        public int Compare(Student x, Student y)
         {
             if (x.Marks > y.Marks)
                 return 1;
             else if (x.Marks < y.Marks)
                 return -1;
             else
-                return 0 ;
+                return 0;
         }
     }
     class TestStudent
@@ -51,7 +51,7 @@ namespace myproject2.CSharpCollections
             Students.Sort();
 
 
-            foreach(Student S in Students)
+            foreach (Student S in Students)
             {
                 Console.WriteLine(S.Sid+" "+S.Name+" "+S.Class+" "+S.Marks);
             }

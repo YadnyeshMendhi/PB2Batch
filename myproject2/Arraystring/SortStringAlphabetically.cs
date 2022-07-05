@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace myproject2.Arrays
+namespace myproject2.Arraystring
 {
-    class practiceMock
+    class SortStringAlphabetically
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Using Ready_Made function");
+             Console.WriteLine("Using Ready_Made function");
             string[] arr = { "Yadnyesh", "Shyam", "Vibhor", "Rohan" };
 
             Array.Sort<string>(arr);
@@ -36,10 +36,6 @@ namespace myproject2.Arrays
                 }
             }
             Console.WriteLine(charstr);
-           
         }
-
-
     }
 }
-

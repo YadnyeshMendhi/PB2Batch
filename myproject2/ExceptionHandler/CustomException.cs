@@ -4,11 +4,16 @@ using System.Text;
 
 namespace MyProject1.ExceptionHandler
 {
+
+    //Custom exceptions can be used to add clear, meaningful, and user-friendly
+    //information to exceptions when errors occur while your program is running.
+    //The base class for all exceptions in . Net is Exception
+
     class InvalidPasswordException : ApplicationException
     {
         public InvalidPasswordException(String msg)
         {
-
+            Console.WriteLine();
         }
 
     }

@@ -18,7 +18,7 @@ namespace myproject2
             for (int i = 0; i < ch.Length; i++)
             {
                 if (ch[i] >= 'A' && ch[i] <= 'Z')
-                    ch[i] = (char)(ch[i] + 'a' - 'A');
+                    ch[i] = (char)(str[i] + 'a' - 'A');
                 else if (ch[i] >= 'a' && ch[i] <= 'z')
                     ch[i] = (char)(str[i] + 'A' - 'a');
             }

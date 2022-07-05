@@ -18,6 +18,7 @@ namespace MyProject1.Arraystring
             }
             Console.WriteLine(reverse);*/
 
+           
 
             string str = "india is my country";
 
@@ -28,6 +29,11 @@ namespace MyProject1.Arraystring
                 reverse = reverse + str[i];
             }
             Console.WriteLine(reverse);
+
+
+
+
+
 
         }
     }

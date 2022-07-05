@@ -13,15 +13,15 @@ namespace myproject2.Delegates
 
         class Delegates
         {
-            public static void Addnum1(int x, float y, double z)
+            public void Addnum1(int x, float y, double z)//Non return type method
             {
                 Console.WriteLine("Addition=" + (x + y + z));
             }
-            public static double Addnum2(int x, float y, double z)
+            public static double Addnum2(int x, float y, double z)//return type method
             {
                 return x + y + z;
             }
-            public static bool check(string str)
+            public static bool check(string str)//boolean return type method
             {
                 if (str.Length > 5)
                     return true;
@@ -32,7 +32,7 @@ namespace myproject2.Delegates
         static void Main(string[] args)
         {
             Delegates d = new Delegates();
-            Action<int , float , double> a1= Delegates.Addnum1;
+            Action<int , float , double> a1= d.Addnum1;
             a1(12, 34.22f, 56.44);
 
             Func<int,float,double,double> a2 = Delegates.Addnum2;

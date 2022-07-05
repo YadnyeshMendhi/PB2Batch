@@ -9,6 +9,7 @@ namespace MyProject1.CSharpCollections
         static void Main(String[] args)
         {
             // creating HashTable
+            //Hashtable uses Hashing technique to store data in table
             Hashtable ht = new Hashtable();
 
             //Elements

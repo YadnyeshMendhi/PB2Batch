@@ -20,7 +20,7 @@ namespace MyProject1.Arraystring
             char[] ch = s.ToCharArray();
             for(int i=0; i< 3; i++)
             {
-                if(char.IsDigit(s[i]))
+                if(char.IsDigit(s[i]))//s[i]>=0 && s[i]<=9
                 {
 
                     count++;

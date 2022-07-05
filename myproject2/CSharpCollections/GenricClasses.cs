@@ -16,6 +16,7 @@ namespace MyProject1.CSharpCollections
 
             list.Add(23);
             list.Add(28);
+          
 
             Console.WriteLine(list[0]);
 /*

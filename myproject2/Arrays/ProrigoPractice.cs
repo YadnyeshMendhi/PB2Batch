@@ -20,7 +20,18 @@ namespace myproject2.Arrays
             i = 100;
             j = 200;
             while (++i < --j) ;
-            Console.WriteLine("Midpoint is="+i);
+            Console.WriteLine("Midpoint is=" + i);
+
+
+
+           /* char[] arr = new char[] { 'k', 'i', 'c', 'i', 't' };
+
+
+            do 
+            {
+                Console.WriteLine((char) i);
+            }
+            while(int i = 0; i < arr; i++);*/
         }
     }
 }
