@@ -19,10 +19,10 @@ namespace myproject2.Arrays
             }*/
             //Console.WriteLine(String.Join(",", a));
             //Console.WriteLine("..............................");
-            int j = a.Length/2;
+            int j = a.Length-1;
 
 
-            for (int i = 0; i < a.Length/2; i++,j++)
+            for (int i = 0; i < a.Length/2; i++,j--)
             {
                 int temp = a[i];
                 a[i] = a[j];

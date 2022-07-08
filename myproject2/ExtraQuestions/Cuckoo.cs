@@ -6,7 +6,7 @@ namespace myproject2.ExtraQuestions
 {
     class Cuckoo
     {
-        int coo(int s)
+        public int coo(int s)
         {
             if (s == 1)
             {
@@ -19,7 +19,7 @@ namespace myproject2.ExtraQuestions
 
             return s;
         }
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
 
 

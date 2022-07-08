@@ -3,6 +3,6 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
 	  <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>myproject2.CSharpCollections.LinkedList</StartupObject>
+	  <StartupObject>myproject2.Arraystring.Toggle_Case</StartupObject>
   </PropertyGroup>
 </Project>
