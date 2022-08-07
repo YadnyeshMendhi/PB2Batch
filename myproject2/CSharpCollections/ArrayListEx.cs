@@ -36,7 +36,8 @@ namespace myproject2.CSharpCollections
             Console.WriteLine("Capacity = " +capacity);
 
          
-
+            //it executes each and every item that exist in the arraylist object.
+            //Each time loop rotates and read item from the arraylist and assignes to the variable.
             foreach(object i in list)
             {
                 Console.WriteLine(i);
